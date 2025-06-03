@@ -46,21 +46,6 @@
 			]
 		},
 		{
-			"Name": "OpenXRMsftHandInteraction",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
-		},
-		{
-			"Name": "HPMotionController",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
 			"Name": "XRBase",
 			"Enabled": true
 		}
