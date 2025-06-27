@@ -37,14 +37,14 @@ def generar_anuncio(commits_filtrados):
         return "No se encontraron nuevas funcionalidades en los últimos commits."
 
     prompt = (
-        "Genera un anuncio llamativo y breve en estilo de redes sociales "
+        "Genera un anuncio llamativo y breve en estilo de redes sociales al español y ingles "
         "basado en los siguientes commits de nuevas funcionalidades:\n\n"
         + "\n".join(commits_filtrados)
     )
 
     try:
         response = client.chat.completions.create(
-            model="meta-llama/llama-3-8b-instruct:nitro",  # Modelo gratuito de OpenRouter
+            model="deepseek/deepseek-chat-v3-0324:free",  # Modelo gratuito de OpenRouter
             messages=[
                 {"role": "user", "content": prompt}
             ],
