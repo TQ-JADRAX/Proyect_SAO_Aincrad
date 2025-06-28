@@ -4,6 +4,9 @@ from dotenv import load_dotenv
 from pathlib import Path
 from openai import OpenAI
 import requests
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
 # Cargar .env desde ruta absoluta
 dotenv_path = Path(__file__).resolve().parent / "Api_Key.env"
 load_dotenv(dotenv_path)
@@ -26,7 +29,7 @@ def obtener_commits(n=1):
         )
         return output.strip().split("\n")
     except subprocess.CalledProcessError:
-        print("❌ Error al ejecutar git log. ¿Estás en un repositorio Git?")
+        print("Error al ejecutar git log. ¿Estás en un repositorio Git?")
         return []
 
 
@@ -61,7 +64,7 @@ def generar_anuncio(commits_filtrados):
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        return f"❌ Error al generar con OpenRouter: {e}"
+        return f"Error al generar con OpenRouter: {e}"
     
 def generar_changelog(commits_filtrados_c):
     if not commits_filtrados_c:
@@ -84,7 +87,7 @@ def generar_changelog(commits_filtrados_c):
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        return f"❌ Error al generar con OpenRouter: {e}"
+        return f"Error al generar con OpenRouter: {e}"
     
 
 def enviar_a_discord_changelog(mensaje):
@@ -95,7 +98,7 @@ def enviar_a_discord_changelog(mensaje):
     webhook_url = os.getenv("DISCORD_WEBHOOK_URL_CHANGELOG_CHAT")  # La URL la tomamos desde .env
     
     if not webhook_url:
-        print("❌ Webhook de Discord no configurado.")
+        print("Webhook de Discord no configurado.")
         return
     
     # Divide el mensaje en bloques de 2000 caracteres
@@ -104,9 +107,9 @@ def enviar_a_discord_changelog(mensaje):
     for parte in partes:
         response = requests.post(webhook_url, json={"content": parte})
         if response.status_code == 204:
-            print("✅ Parte enviada a Discord.")
+            print("Parte enviada a Discord.")
         else:
-            print(f"❌ Error al enviar a Discord: {response.status_code} - {response.text}")
+            print(f"Error al enviar a Discord: {response.status_code} - {response.text}")
 
 
 
@@ -116,7 +119,7 @@ def enviar_a_discord(mensaje):
         return
     webhook_url = os.getenv("DISCORD_WEBHOOK_URL")  # La URL la tomamos desde .env
     if not webhook_url:
-        print("❌ Webhook de Discord no configurado.")
+        print("Webhook de Discord no configurado.")
         return
 
     # Divide el mensaje en bloques de 2000 caracteres
@@ -125,9 +128,9 @@ def enviar_a_discord(mensaje):
     for parte in partes:
         response = requests.post(webhook_url, json={"content": parte})
         if response.status_code == 204:
-            print("✅ Parte enviada a Discord.")
+            print("Parte enviada a Discord.")
         else:
-            print(f"❌ Error al enviar a Discord: {response.status_code} - {response.text}")
+            print(f"Error al enviar a Discord: {response.status_code} - {response.text}")
 
     
 def main():
@@ -137,13 +140,14 @@ def main():
     anuncio = generar_anuncio(features)
     changelog = filtrar_features_changelog(commits_c)
     anuncio_changelog = generar_changelog(changelog)
-    print("\n📢 Anuncio generado:\n")
+    print("\nAnuncio generado:\n")
     print(anuncio)
     enviar_a_discord(anuncio)
-    print("\n📢 Changelog generado:\n")
+    print("\nChangelog generado:\n")
     print(anuncio_changelog)
     enviar_a_discord_changelog(anuncio_changelog)
     
 if __name__ == "__main__":
-       print("🚀 Ejecutando GPT Commit Announcer...")
+       print(" Ejecutando GPT Commit Announcer...\n")
+
        main() 
