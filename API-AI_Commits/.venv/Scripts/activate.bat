@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Proyect_SAO_Aincrad\API-Gpt\.venv
+set VIRTUAL_ENV=C:\Proyect_SAO_Aincrad\API-AI_Commits\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
