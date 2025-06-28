@@ -91,7 +91,9 @@ def enviar_a_discord_changelog(mensaje):
     if mensaje == "No se encontraron cambios para generar un changelog en los ultimos commits":
         print('No se envio nada a Discord en el canal CHANGELOG')
         return
+    
     webhook_url = os.getenv("DISCORD_WEBHOOK_URL_CHANGELOG_CHAT")  # La URL la tomamos desde .env
+ 
     if not webhook_url:
         print("❌ Webhook de Discord no configurado.")
         return
@@ -117,16 +119,15 @@ def enviar_a_discord(mensaje):
         print("❌ Webhook de Discord no configurado.")
         return
 
-    data = {
-        "content": mensaje
-    }
+    # Divide el mensaje en bloques de 2000 caracteres
+    partes = [mensaje[i:i+2000] for i in range(0, len(mensaje), 2000)]
 
-    response = requests.post(webhook_url, json=data)
-
-    if response.status_code == 204:
-        print("✅ Anuncio enviado a Discord.")
-    else:
-        print(f"❌ Error al enviar a Discord: {response.status_code} - {response.text}")
+    for parte in partes:
+        response = requests.post(webhook_url, json={"content": parte})
+        if response.status_code == 204:
+            print("✅ Parte enviada a Discord.")
+        else:
+            print(f"❌ Error al enviar a Discord: {response.status_code} - {response.text}")
 
     
 def main():
