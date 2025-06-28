@@ -142,7 +142,7 @@ def main():
     print("\n📢 Changelog generado:\n")
     print(anuncio_changelog)
     enviar_a_discord_changelog(anuncio_changelog)
-
+    print('holas')
 if __name__ == "__main__":
        print("🚀 Ejecutando GPT Commit Announcer...")
        main() 
