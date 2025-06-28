@@ -46,7 +46,7 @@ def generar_anuncio(commits_filtrados):
 
     prompt = (
         "crea un anuncio de feature para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera amplia,ilustrativa y congruente para los usuarios acerca de lo que se esta trabajando, hazlos llamativos y llamativos para los usuarios al español e ingles"
-        "Solo responde con el texto del anuncio, sin ningún saludo, introducción ni explicación. Basado en los siguientes commits de nuevas funcionalidades:\n\n"
+        "Solo responde con el texto del anuncio, sin ningún saludo, introducción ni explicación, Basado en los siguientes commits de nuevas funcionalidades:\n\n"
         + "\n".join(commits_filtrados)
     )
 
@@ -69,7 +69,7 @@ def generar_changelog(commits_filtrados_c):
     
     prompt_c = (
         "crea un anuncio de cahngelog para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera amplia,ilustrativa y congruente para el equipo de programacion acerca de lo que se esta trabajando, hazlos llamativos y tecnicos para mi equipo de trabajo en mi repositorio de github al español e ingles"
-        "Solo responde con el texto del anuncio, sin ningún saludo, introducción ni explicación. Basado en los siguientes commits de nuevos changes:\n\n"
+        "Solo responde con el texto del anuncio, sin ningún saludo, introducción ni explicación, Basado en los siguientes commits de nuevos changes:\n\n"
         + "\n".join(commits_filtrados_c)
     )
 
