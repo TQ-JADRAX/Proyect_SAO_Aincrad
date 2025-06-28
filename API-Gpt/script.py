@@ -29,15 +29,23 @@ def obtener_commits(n=10):
         print("❌ Error al ejecutar git log. ¿Estás en un repositorio Git?")
         return []
 
+
+
 def filtrar_features(commits):
     return [c for c in commits if c.lower().startswith("feat:")]
+
+
+def filtrar_features_changelog(commits_c):
+    return [c for c in commits_c if c.lower().startwith("changelog:")]
+
+
 
 def generar_anuncio(commits_filtrados):
     if not commits_filtrados:
         return "No se encontraron nuevas funcionalidades en los últimos commits."
 
     prompt = (
-        "crea un anuncio de feature para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera ilustrativa y congruente para los usuarios acerca de lo que se esta trabajando, y de manera separada un changelog para el repositorio de github, hazlos llamativos y llamativos para los usuarios"
+        "crea un anuncio de feature para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera amplia,ilustrativa y congruente para los usuarios acerca de lo que se esta trabajando, hazlos llamativos y llamativos para los usuarios al español e ingles"
         "basado en los siguientes commits de nuevas funcionalidades:\n\n"
         + "\n".join(commits_filtrados)
     )
@@ -54,6 +62,48 @@ def generar_anuncio(commits_filtrados):
         return response.choices[0].message.content.strip()
     except Exception as e:
         return f"❌ Error al generar con OpenRouter: {e}"
+    
+def generar_changelog(commits_filtrados_c):
+    if not commits_filtrados_c:
+        return "No se encontraron cambios para generar un changelog en los ultimos commits"
+    
+    prompt_c = (
+        "crea un anuncio de cahngelog para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera amplia,ilustrativa y congruente para los usuarios y equipo de programacion acerca de lo que se esta trabajando, hazlos llamativos y tecnicos para mi equipo de trabajo en mi repositorio de github al español e ingles"
+        "basado en los siguientes commits de nuevos changes:\n\n"
+        + "\n".join(commits_filtrados_c)
+    )
+
+    try:
+        response = client.chat.completions.create(
+            model="deepseek/deepseek-chat-v3-0324:free",  # Modelo gratuito de OpenRouter
+            messages=[
+                {"role": "user", "content": prompt_c}
+            ],
+            temperature=0.7,
+            max_tokens=300
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        return f"❌ Error al generar con OpenRouter: {e}"
+    
+
+def enviar_a_discord_changelog(mensaje):
+    webhook_url = os.getenv("DISCORD_WEBHOOK_URL_CHANGELOG_CHAT")  # La URL la tomamos desde .env
+    if not webhook_url:
+        print("❌ Webhook de Discord no configurado.")
+        return
+    
+    data = {
+        "content": mensaje
+    }
+
+    response = requests.post(webhook_url, json=data)
+    if response.status_code == 204:
+        print("✅ Anuncio enviado a Discord.")
+    else:
+        print(f"❌ Error al enviar a Discord: {response.status_code} - {response.text}")
+
+
 
 def enviar_a_discord(mensaje):
     webhook_url = os.getenv("DISCORD_WEBHOOK_URL")  # La URL la tomamos desde .env
@@ -72,19 +122,21 @@ def enviar_a_discord(mensaje):
     else:
         print(f"❌ Error al enviar a Discord: {response.status_code} - {response.text}")
 
+    
 def main():
     commits = obtener_commits()
+    commits_c = obtener_commits()
     features = filtrar_features(commits)
     anuncio = generar_anuncio(features)
+    changelog = filtrar_features_changelog(commits_c)
+    anuncio_changelog = generar_changelog(changelog)
     print("\n📢 Anuncio generado:\n")
     print(anuncio)
+    enviar_a_discord(anuncio)
+    print("\n📢 Changelog generado:\n")
+    print(anuncio_changelog)
+    enviar_a_discord_changelog(anuncio_changelog)
 
 if __name__ == "__main__":
        print("🚀 Ejecutando GPT Commit Announcer...")
-       commits = obtener_commits()
-       features = filtrar_features(commits)
-       anuncio = generar_anuncio(features)
-       print("\n📢 Anuncio generado:\n")
-       print(anuncio)
-       enviar_a_discord(anuncio)
        main() 
