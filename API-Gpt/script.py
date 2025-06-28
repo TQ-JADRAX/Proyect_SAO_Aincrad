@@ -36,7 +36,7 @@ def filtrar_features(commits):
 
 
 def filtrar_features_changelog(commits_c):
-    return [c for c in commits_c if c.lower().startwith("changelog:")]
+    return [c for c in commits_c if c.lower().startswith("changelog:")]
 
 
 
