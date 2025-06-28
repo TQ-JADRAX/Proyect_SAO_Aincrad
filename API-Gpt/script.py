@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from pathlib import Path
 from openai import OpenAI
-
+import requests
 # Cargar .env desde ruta absoluta
 dotenv_path = Path(__file__).resolve().parent / "Api_Key.env"
 load_dotenv(dotenv_path)
@@ -37,7 +37,7 @@ def generar_anuncio(commits_filtrados):
         return "No se encontraron nuevas funcionalidades en los últimos commits."
 
     prompt = (
-        "Genera un anuncio llamativo y breve en estilo de redes sociales al español y ingles "
+        "crea un anuncio de feature para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera ilustrativa y congruente para los usuarios acerca de lo que se esta trabajando, y de manera separada un changelog para el repositorio de github, hazlos llamativos y llamativos para los usuarios"
         "basado en los siguientes commits de nuevas funcionalidades:\n\n"
         + "\n".join(commits_filtrados)
     )
@@ -55,6 +55,23 @@ def generar_anuncio(commits_filtrados):
     except Exception as e:
         return f"❌ Error al generar con OpenRouter: {e}"
 
+def enviar_a_discord(mensaje):
+    webhook_url = os.getenv("DISCORD_WEBHOOK_URL")  # La URL la tomamos desde .env
+    if not webhook_url:
+        print("❌ Webhook de Discord no configurado.")
+        return
+
+    data = {
+        "content": mensaje
+    }
+
+    response = requests.post(webhook_url, json=data)
+
+    if response.status_code == 204:
+        print("✅ Anuncio enviado a Discord.")
+    else:
+        print(f"❌ Error al enviar a Discord: {response.status_code} - {response.text}")
+
 def main():
     commits = obtener_commits()
     features = filtrar_features(commits)
@@ -63,4 +80,11 @@ def main():
     print(anuncio)
 
 if __name__ == "__main__":
-    main() 
+       print("🚀 Ejecutando GPT Commit Announcer...")
+       commits = obtener_commits()
+       features = filtrar_features(commits)
+       anuncio = generar_anuncio(features)
+       print("\n📢 Anuncio generado:\n")
+       print(anuncio)
+       enviar_a_discord(anuncio)
+       main() 
