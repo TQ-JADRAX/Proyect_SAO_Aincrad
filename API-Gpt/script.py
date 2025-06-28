@@ -17,7 +17,7 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1"
 )
 
-def obtener_commits(n=10):
+def obtener_commits(n=1):
     try:
         output = subprocess.check_output(
             ["git", "log", f"-n{n}", "--pretty=format:%s"],
@@ -68,7 +68,7 @@ def generar_changelog(commits_filtrados_c):
         return "No se encontraron cambios para generar un changelog en los ultimos commits"
     
     prompt_c = (
-        "crea un anuncio de cahngelog para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera amplia,ilustrativa y congruente para los usuarios y equipo de programacion acerca de lo que se esta trabajando, hazlos llamativos y tecnicos para mi equipo de trabajo en mi repositorio de github al español e ingles"
+        "crea un anuncio de cahngelog para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera amplia,ilustrativa y congruente para el equipo de programacion acerca de lo que se esta trabajando, hazlos llamativos y tecnicos para mi equipo de trabajo en mi repositorio de github al español e ingles"
         "basado en los siguientes commits de nuevos changes:\n\n"
         + "\n".join(commits_filtrados_c)
     )
