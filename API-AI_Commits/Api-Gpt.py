@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 # RUTA ABSOLUTA al archivo .env 
-load_dotenv("C:/Proyect_SAO_Aincrad/API-Gpt/key.env")
+load_dotenv("C:/Proyect_SAO_Aincrad/API-AI_Commits/Api-key.env")
 
 
 api_key = os.getenv("OPENAI_API_KEY")
