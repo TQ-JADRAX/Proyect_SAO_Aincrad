@@ -56,8 +56,8 @@ def generar_anuncio(commits_filtrados):
             messages=[
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.7,
-            max_tokens=300
+            temperature= 0.7,
+            max_tokens= 900
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
@@ -80,7 +80,7 @@ def generar_changelog(commits_filtrados_c):
                 {"role": "user", "content": prompt_c}
             ],
             temperature=0.7,
-            max_tokens=300
+            max_tokens=900
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
@@ -88,6 +88,9 @@ def generar_changelog(commits_filtrados_c):
     
 
 def enviar_a_discord_changelog(mensaje):
+    if mensaje == "No se encontraron cambios para generar un changelog en los ultimos commits":
+        print('No se envio nada a Discord en el canal CHANGELOG')
+        return
     webhook_url = os.getenv("DISCORD_WEBHOOK_URL_CHANGELOG_CHAT")  # La URL la tomamos desde .env
     if not webhook_url:
         print("❌ Webhook de Discord no configurado.")
@@ -106,6 +109,9 @@ def enviar_a_discord_changelog(mensaje):
 
 
 def enviar_a_discord(mensaje):
+    if mensaje == "No se encontraron nuevas funcionalidades en los últimos commits.":
+        print('No se envio nada a discord en el canal FEATURES')
+        return
     webhook_url = os.getenv("DISCORD_WEBHOOK_URL")  # La URL la tomamos desde .env
     if not webhook_url:
         print("❌ Webhook de Discord no configurado.")
