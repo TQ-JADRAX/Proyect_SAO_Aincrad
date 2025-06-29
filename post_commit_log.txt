@@ -1,1 +1,310 @@
 
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 13:02:06     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+### **Anuncio de Changelog - Desarrollo de SAO: Aincrad Recreación**  
+
+**🇪🇸 Español**  
+
+📌 **Integración de API para Commits desde Unreal Engine**  
+- Se ha implementado una API personalizada que permite realizar commits directamente desde Unreal Engine.  
+- Los commits generados son procesados automáticamente por IA para:  
+  - Crear anuncios claros y detallados para la comunidad de jugadores.  
+  - Generar changelogs técnicos para el equipo de desarrollo, optimizando la trazabilidad de cambios.  
+
+🔧 **Detalles Técnicos**  
+- La API se conecta con el repositorio de GitHub, asegurando sincronización inmediata.  
+- Sistema de parsing inteligente para clasificar commits (features, bugs, optimizaciones).  
+- Preparado para escalar con futuras integraciones de automatización (CI/CD, bots de Discord, etc.).  
+
+🚀 **Próximos Pasos**  
+- Mejorar el feedback visual en Unreal al realizar commits.  
+- Expandir capacidades de la IA para generar reportes de bugs automáticos.  
+
+---  
+
+### **Changelog Announcement - SAO: Aincrad Recreation Development**  
+
+📌 **Unreal Engine Commit API Integration**  
+- Custom API now enables direct commits from Unreal Engine.  
+- Generated commits are auto-processed by AI to:  
+  - Craft player-friendly community announcements.  
+  - Generate technical changelogs for dev team, enhancing change tracking.  
+
+🔧 **Technical Breakdown**  
+- API syncs seamlessly with GitHub repository.  
+- Smart parsing system to categorize commits (features, bugs, optimizations).  
+- Designed to scale with future automations (CI/CD, Discord bots, etc.).  
+
+🚀 **Next Steps**  
+- Enhance visual feedback for commits within Unreal.  
+- Expand AI capabilities for automated bug reporting.
+Parte enviada a Discord.
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 14:07:54     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+**Anuncio de Nueva Función - ¡Interacción con Objetos en Aincrad!**  
+
+**¡Explora y Descubre!**  
+Hemos implementado un sistema de interacción con objetos para los jugadores en PC. Ahora, al acercarte a ciertos objetos en el mundo de Aincrad, una esfera de colisión detectará tu presencia y mostrará un widget especial que te permitirá interactuar con ellos.  
+
+**Detalles Técnicos (En Pruebas):**  
+- Sistema de detección por proximidad mediante colisión esférica.  
+- Widget de interacción dinámico para una experiencia fluida.  
+- ¡Más realismo y profundidad en cada rincón de Aincrad!  
+
+*Nota: Esta función está en fase de pruebas y ajustes, especialmente en modo servidor. ¡Próximamente más novedades!*  
+
+---  
+
+**New Feature Announcement - Object Interaction in Aincrad!**  
+
+**Explore and Discover!**  
+We’ve implemented an object interaction system for PC players. Now, when you approach certain objects in Aincrad, a sphere collision will detect your presence and display a dynamic widget, allowing you to interact with them.  
+
+**Technical Details (Under Testing):**  
+- Proximity detection via spherical collision.  
+- Dynamic interaction widget for seamless gameplay.  
+- Deeper immersion in every corner of Aincrad!  
+
+*Note: This feature is in testing and adjustments, especially in server mode. Stay tuned for more updates!*
+Parte enviada a Discord.
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 15:03:36     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 16:09:50     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+**Changelog - Actualización del Inventario (PC)**  
+
+**ESPAÑOL:**  
+🚀 **Nuevo: Sistema de Inventario para Jugadores (PC)**  
+- Implementado el inventario funcional para jugadores en PC.  
+- **Pruebas en curso**: Actualmente se está verificando la interacción y visualización de objetos.  
+- **Problema conocido**: Falta lógica para reaparecer el objeto deseado al seleccionarlo (en proceso de ajuste para vincularlo correctamente a la mano del jugador).  
+
+🔧 **Detalles Técnicos:**  
+- Se optimizó la carga de assets para reducir latencia.  
+- Base de datos de items integrada con el sistema de UI.  
+
+---  
+
+**ENGLISH:**  
+🚀 **New: Inventory System for PC Players**  
+- Functional inventory implemented for PC players.  
+- **Testing phase**: Currently verifying item interaction and display.  
+- **Known issue**: Missing logic to respawn the selected item (debugging hand-attachment mechanics).  
+
+🔧 **Technical Details:**  
+- Optimized asset loading to reduce latency.  
+- Item database synced with UI system.  
+
+*Commit ref: [Link al commit]*
+Parte enviada a Discord.
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 20:04:06     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 20:04:10     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 20:04:12     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 20:04:15     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 20:04:19     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 20:04:22     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 21:45:18     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 21:45:21     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 21:45:23     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 21:45:25     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 21:45:28     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
