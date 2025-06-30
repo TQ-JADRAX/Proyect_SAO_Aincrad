@@ -308,3 +308,136 @@ Changelog generado:
 No se encontraron cambios para generar un changelog en los ultimos commits
 No se envio nada a Discord en el canal CHANGELOG
 ==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jun 28 22:03:33     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sun Jun 29 12:06:29     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+**Changelog - Aincrad Recreación (SAO)**  
+
+**Español:**  
+🚀 **Refactorización Continua para Multijugador en PC**  
+Estamos avanzando en la refactorización del código existente para garantizar una experiencia multijugador fluida y escalable en PC. Los cambios incluyen:  
+- **Optimización de Red:** Mejoras en la sincronización de paquetes entre cliente-servidor para reducir latencia.  
+- **Arquitectura de Estados Compartidos:** Refactorización de la lógica del juego para soportar múltiples jugadores con consistencia en tiempo real.  
+- **Sistema de Colisiones Mejorado:** Ajustes en la detección de hitboxes para interacciones PvE y PvP más precisas.  
+
+🔧 **Próximos Pasos:**  
+- Implementar matchmaking básico.  
+- Depurar problemas de sincronización en habilidades y movimientos.  
+
+¡Manténganse atentos para más actualizaciones!  
+
+---  
+
+**English:**  
+🚀 **Ongoing Refactoring for PC Multiplayer**  
+We’re deep into refactoring existing code to ensure a smooth, scalable PC multiplayer experience. Key updates include:  
+- **Network Optimization:** Enhanced client-server packet synchronization to reduce latency.  
+- **Shared State Architecture:** Refactored game logic to support real-time consistency across multiple players.  
+- **Improved Collision System:** Tweaked hitbox detection for tighter PvE and PvP interactions.  
+
+🔧 **Next Steps:**  
+- Implement basic matchmaking.  
+- Debug skill and movement sync issues.  
+
+Stay tuned for more!
+Parte enviada a Discord.
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sun Jun 29 14:08:48     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sun Jun 29 16:56:31     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sun Jun 29 21:15:01     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+**Changelog - Aincrad Recreación**  
+
+### **ESPAÑOL**  
+**Nuevos Cambios:**  
+- **Sistema de Inventario Multiplayer (PC_Players):**  
+  - Replicación en fases finales.  
+  - Funciones implementadas: **recolectar**, **añadir al inventario**, **spawn en mano**, **soltar objeto**.  
+- **Arete (Earrings):**  
+  - Colisiones ajustadas entre objeto y personaje para evitar bugs.  
+- **Maniquíes:**  
+  - Animaciones actualmente inestables, requiere corrección prioritaria.  
+- **Próximos Pasos:**  
+  - **Inventario Replicado (VR_Players):** Desarrollo pendiente.  
+  - **URGENTE:** Multiplayer de **Widgets de Menú (PC_Players)**.  
+
+---  
+
+### **ENGLISH**  
+**Latest Updates:**  
+- **Multiplayer Inventory System (PC_Players):**  
+  - Replication in final stages.  
+  - Functions implemented: **collect**, **add to inventory**, **spawn in hand**, **drop item**.  
+- **Earrings:**  
+  - Collisions fine-tuned between object/character to prevent bugs.  
+- **Mannequins:**  
+  - Current animations unstable, high-priority fix required.  
+- **Next Steps:**  
+  - **Replicated Inventory (VR_Players):** Pending implementation.  
+  - **URGENT:** Multiplayer **Menu Widgets (PC_Players)**.  
+
+**Code strong. Push forward.** 🔥
+Parte enviada a Discord.
+==== Fin del post-commit ====
