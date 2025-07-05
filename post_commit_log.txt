@@ -441,3 +441,543 @@ Changelog generado:
 **Code strong. Push forward.** 🔥
 Parte enviada a Discord.
 ==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Mon Jun 30 21:22:52     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Tue Jul  1 12:58:37     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Tue Jul  1 15:12:36     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Tue Jul  1 16:45:14     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Tue Jul  1 18:09:37     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+# Changelog - SAO Aincrad Recreation  
+
+## [Versión en Español]  
+
+**Nuevas Implementaciones:**  
+- **Inventario HUD 100% Funcional:**  
+  - Los widgets del inventario ahora muestran correctamente los objetos en cada slot, incluyendo la cantidad disponible.  
+  - Sistema de gestión de items totalmente integrado con el HUD visual.  
+
+**Mejoras y Conexiones:**  
+- **Integración con Actor Menu:**  
+  - Los pendientes (*Earrings*) ahora se sincronizan dinámicamente entre el inventario y el menú del personaje.  
+  - Conexión establecida entre los inventarios para una gestión fluida de objetos.  
+
+**Próximos Pasos:**  
+- Optimización de rendimiento en la UI del inventario.  
+- Implementación de interacciones de arrastrar y soltar (*drag & drop*).  
+
+---  
+
+## [English Version]  
+
+**New Features:**  
+- **Fully Functional Inventory HUD:**  
+  - Inventory widgets now correctly display items in each slot, including their available quantity.  
+  - Item management system fully integrated with the visual HUD.  
+
+**Enhancements & Connections:**  
+- **Actor Menu Integration:**  
+  - Earrings now dynamically sync between the inventory and character menu.  
+  - Stable connection established between inventories for seamless item management.  
+
+**Next Steps:**  
+- UI inventory performance optimization.  
+- Implementation of drag-and-drop interactions.
+Parte enviada a Discord.
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Tue Jul  1 19:39:51     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Wed Jul  2 20:45:44     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+**Anuncio de Nueva Función - Sistema de Inventario Mejorado**  
+
+**¡Atención, jugadores de Aincrad!**  
+
+Estamos emocionados de presentarles nuestro **nuevo sistema de inventario**, diseñado para revolucionar la forma en que gestionáis vuestros objetos en el mundo de Aincrad.  
+
+🔹 **Almacenamiento Ampliado**: Ya no estarás limitado solo a los espacios predeterminados. Ahora podrás guardar más objetos gracias a los **Widgets del Menú SAO**, asegurando que nunca te falte espacio para tus tesoros.  
+
+🔹 **Descomposición de Objetos**: ¿Objetos que ya no necesitas? ¡Conviértelos en materiales útiles! Esta función te permitirá aprovechar al máximo cada ítem en tu inventario.  
+
+🔹 **Integración Futura**: Este es solo el comienzo. Pronto, conectaremos estos widgets con otras funciones del **Menú SAO**, haciendo que la experiencia sea aún más fluida y personalizable.  
+
+¡Mantente atento, porque más mejoras están en camino!  
+
+---  
+
+**New Feature Announcement - Enhanced Inventory System**  
+
+**Attention, Aincrad players!**  
+
+We’re thrilled to introduce our **new inventory system**, designed to revolutionize how you manage your items in the world of Aincrad.  
+
+🔹 **Expanded Storage**: No longer limited to preset slots. Now, you can store more items thanks to the **SAO Menu Widgets**, ensuring you never run out of space for your treasures.  
+
+🔹 **Item Breakdown**: Have unused items? Break them down into useful materials! This feature will help you make the most of every item in your inventory.  
+
+🔹 **Future Integration**: This is just the beginning. Soon, we’ll connect these widgets with other **SAO Menu** features, making the experience even smoother and more customizable.  
+
+Stay tuned—more upgrades are coming!
+Parte enviada a Discord.
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Thu Jul  3 19:40:38     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+**Changelog - SAO Aincrad Recreation**  
+
+**Español:**  
+📌 **Nuevo Enemigo IA (Seguidor Agresivo)**  
+- Implementado un enemigo con IA avanzada que detecta y persigue al jugador al entrar en su campo de visión.  
+- Sistema de daño activo durante la persecución: el enemigo inflige daño al alcanzar al jugador.  
+- Lógica de movimiento optimizada para rutas y seguimiento dinámico.  
+- Detección de colisiones y eventos de ataque sincronizados con animaciones.  
+
+🔧 **Detalles Técnicos:**  
+- Uso de *NavMesh* para pathfinding y *Raycasting* para detección visual.  
+- Integración con el sistema de salud del jugador (*HealthManager*).  
+- Parámetros ajustables: rango de detección, velocidad y daño (ScriptableObject).  
+
+⚠️ **Notas para QA:**  
+- Verificar transiciones de animación y respuesta al daño.  
+- Testear límites de persecución (escenarios complejos).  
+
+---  
+
+**English:**  
+📌 **New Enemy AI (Aggressive Follower)**  
+- Added advanced AI enemy that detects and chases the player upon entering its line of sight.  
+- Active damage system during pursuit: enemy deals damage upon reaching the player.  
+- Optimized movement logic for dynamic pathfinding.  
+- Collision detection and attack events synced with animations.  
+
+🔧 **Tech Details:**  
+- *NavMesh* for pathfinding + *Raycasting* for visual detection.  
+- Integrated with player’s *HealthManager* system.  
+- Adjustable params: detection range, speed, damage (ScriptableObject).  
+
+⚠️ **QA Notes:**  
+- Validate animation transitions and damage feedback.  
+- Test chase boundaries (complex terrains).  
+
+**Repo:** [GitHub Link] *(opcional: añade URL aquí)*
+Parte enviada a Discord.
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 18:41:04     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 18:50:45     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:25:48     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:41:32     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:41:59     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:42:25     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:42:52     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:43:17     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:43:55     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:44:38     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:45:25     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:46:15     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:47:05     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:47:57     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:48:50     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:49:43     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:50:32     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:51:24     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Fri Jul  4 19:52:23     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
