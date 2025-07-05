@@ -48,7 +48,7 @@ def generar_anuncio(commits_filtrados):
         return "No se encontraron nuevas funcionalidades en los últimos commits."
 
     prompt = (
-        "Solo responde con el texto del anuncio, sin ningún saludo, introducción ni explicación, crea un anuncio de feature para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera amplia,ilustrativa y congruente para los usuarios acerca de lo que se esta trabajando, hazlos llamativos y llamativos para los usuarios al español e ingles"
+        "Solo responde con el texto del anuncio, sin ningún saludo, introducción ni explicación, crea un anuncio de feature para mi juego el cual es una recreacion de el juego sword art online (Aincrad) en el cual se describa de una manera amplia,ilustrativa y congruente para los usuarios acerca de lo que se esta trabajando, hazlos llamativos y mas llamativos con emojis para los usuarios al español e ingles, no agregues cosas que no sean funcionalidades, solo las que se encuentren en los commits"
         "Basado en los siguientes commits de nuevas funcionalidades:\n\n"
         + "\n".join(commits_filtrados)
     )
