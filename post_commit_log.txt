@@ -151,3 +151,40 @@ No se envio nada a Discord en el canal CHANGELOG
 RUTA GIT-LFS: /mingw64/bin/git-lfs
 Git LFS está instalado
 ==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jul  5 22:19:42     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+**✨🚀 ¡Nuevas Funcionalidades en Desarrollo! 🎮⚔️**  
+
+**🇪🇸**  
+🔹 **NPCs Enemigos en Acción** 🎯  
+¡Los enemigos cobran vida! 🧟‍♂️🔥 Estamos trabajando en el **NPC Padre** y el temible **Wildboard** 🐗⚡, que patrullan zonas específicas del mapa. ¡Cuidado! 🚨 Te detectarán y atacarán si te acercas. Su inteligencia básica incluye:  
+- **Movimiento autónomo** 🚶‍♂️➡️🗺️  
+- **Detección de jugadores** 👀🎮  
+- **Ataques que reducen tu salud** 💥❤️‍🩹  
+
+Y seguimos puliendo la lógica para que los NPCs enemigos **pierdan salud al ser golpeados** ⚔️💢. ¡Prepárate para el combate!  
+
+---  
+
+**🇬🇧**  
+🔹 **Enemy NPCs in Development!** 🎯  
+The enemies are coming to life! 🧟‍♂️🔥 We’re working on the **Parent NPC** and the fierce **Wildboard** 🐗⚡, which patrol specific map zones. Watch out! 🚨 They’ll spot you and attack if you get too close. Their basic AI includes:  
+- **Autonomous movement** 🚶‍♂️➡️🗺️  
+- **Player detection** 👀🎮  
+- **Attacks that reduce your health** 💥❤️‍🩹  
+
+Plus, we’re refining the logic so enemy NPCs **lose health when hit** ⚔️💢. Gear up for battle!
+Parte enviada a Discord.
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
