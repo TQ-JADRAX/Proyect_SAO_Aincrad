@@ -134,3 +134,20 @@ No se envio nada a Discord en el canal CHANGELOG
 RUTA GIT-LFS: /mingw64/bin/git-lfs
 Git LFS está instalado
 ==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sat Jul  5 13:41:24     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
