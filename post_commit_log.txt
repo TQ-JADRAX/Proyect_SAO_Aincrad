@@ -205,3 +205,82 @@ No se envio nada a Discord en el canal CHANGELOG
 RUTA GIT-LFS: /mingw64/bin/git-lfs
 Git LFS está instalado
 ==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sun Jul  6 19:56:43     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Sun Jul  6 22:46:34     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+**✨ ¡Nuevas Funcionalidades en Aincrad! ✨**  
+
+**🇪🇸 Español:**  
+🔥 **¡Combate Mejorado!** Ahora puedes **atacar y eliminar NPCs enemigos** con movimientos más fluidos y realistas. ¡Demuestra tu destreza en batalla!  
+🦌 **Animaciones Mejoradas:** Los Wild Boards ahora tienen movimientos más naturales y detallados. ¡Prepárate para enfrentarlos en un mundo más vivo!  
+🤖 **NPCs Más Dinámicos:** Correcciones en las animaciones de los NPCs para una experiencia más inmersiva.  
+
+**🇬🇧 English:**  
+🔥 **Enhanced Combat!** Now you can **attack and defeat enemy NPCs** with smoother, more realistic movements. Show off your battle skills!  
+🦌 **Improved Animations:** Wild Boards now feature more natural and detailed movements. Get ready to face them in a livelier world!  
+🤖 **More Dynamic NPCs:** Fixed NPC animations for a deeper immersion.  
+
+¡Avanza, lucha y conquista Aincrad! 🗡️💥 // Advance, fight, and conquer Aincrad! 🗡️💥
+Parte enviada a Discord.
+
+Changelog generado:
+
+No se encontraron cambios para generar un changelog en los ultimos commits
+No se envio nada a Discord en el canal CHANGELOG
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
+==== Ejecutando post-commit desde hook ====
+Commit realizado en: Mon Jul  7 21:45:05     2025
+ Ejecutando GPT Commit Announcer...
+
+
+Anuncio generado:
+
+No se encontraron nuevas funcionalidades en los últimos commits.
+No se envio nada a discord en el canal FEATURES
+
+Changelog generado:
+
+**Changelog - SAO Aincrad Recreation**  
+
+**English:**  
+🚀 **New Features & Improvements**  
+- **AI Enhancements:**  
+  - Added **new animations** for AI test units, refining movement and combat responsiveness.  
+  - Upgraded **AI decision trees** for smarter enemy behavior (patrol, pursuit, attack logic).  
+  - Improved **capsule collisions** on AI characters for more accurate hitbox detection.  
+
+**Español:**  
+🚀 **Nuevas Características y Mejoras**  
+- **IA Mejorada:**  
+  - Nuevas **animaciones** para unidades de prueba de IA, optimizando movimientos y respuesta en combate.  
+  - Árboles de decisión de IA **mejorados** para comportamientos más inteligentes (patrulla, persecución, lógica de ataque).  
+  - **Colisiones de cápsula** ajustadas en personajes de IA para una detección de hitboxes más precisa.  
+
+*(Commit ref: AI animations, behavior tree, collision tweaks)*
+Parte enviada a Discord.
+RUTA GIT-LFS: /mingw64/bin/git-lfs
+Git LFS está instalado
+==== Fin del post-commit ====
